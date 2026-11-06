@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head><meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Эмоции</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #eceae6; color: #1b1b1b; font-family: "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 1240px; margin: 0 auto; padding: 44px 20px 64px; }
+  h1 { margin: 0 0 32px; font-size: 40px; font-weight: 700; letter-spacing: -.01em; text-align: center; }
+  h2 { margin: 48px 0 18px; font-size: 22px; font-weight: 600; text-align: center; }
+  .sheets, .built { display: grid; gap: 22px; }
+  .sheets { grid-template-columns: repeat(3, 1fr); }
+  .built { grid-template-columns: repeat(3, 1fr); max-width: 960px; margin: 0 auto; }
+  img { display: block; width: 100%; height: auto; background: #fff; border-radius: 3px; box-shadow: 0 2px 14px rgba(0,0,0,.14); }
+  @media (max-width: 820px) {
+    main { padding: 28px 14px 44px; }
+    h1 { font-size: 32px; margin-bottom: 22px; }
+    .sheets { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; }
+    .built { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Эмоции</h1>
+  <div class="sheets">
+    <img src="sheet1.png" alt="Девочка с хвостиками и круги с эмоциями">
+    <img src="sheet2.png" alt="Мальчик и круги с эмоциями">
+    <img src="sheet3.png" alt="Девочка с длинными волосами и круги с эмоциями">
+  </div>
+  <h2>В сборке</h2>
+  <div class="built">
+    <img src="built1.png" alt="Девочка, радость">
+    <img src="built2.png" alt="Мальчик, злость">
+    <img src="built3.png" alt="Девочка, нежность">
+    <img src="built4.png" alt="Мальчик, удивление">
+    <img src="built5.png" alt="Девочка, грусть">
+    <img src="built6.png" alt="Девочка, озорство">
+  </div>
+</main>
+</body>
+</html>
